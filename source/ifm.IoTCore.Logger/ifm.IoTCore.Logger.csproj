@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>4.2.25</AssemblyVersion>
+    <Version>4.2.25</Version>
+    <Company>ifm ecomatic gmbh</Company>
+    <Copyright>Copyright © ifm ecomatic gmbh. All rights reserved.</Copyright>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.15" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ifm.IoTCore.Logger.Contracts\ifm.IoTCore.Logger.Contracts.csproj" />
+  </ItemGroup>
+</Project>

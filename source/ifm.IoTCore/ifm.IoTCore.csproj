@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>4.2.25</AssemblyVersion>
+    <Version>4.2.25</Version>
+    <Company>ifm ecomatic gmbh</Company>
+    <Copyright>Copyright © ifm ecomatic gmbh. All rights reserved.</Copyright>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\Release Notes.txt" Pack="True" PackagePath=".\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ifm.IoTCore.Common\ifm.IoTCore.Common.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.ElementManager.Contracts\ifm.IoTCore.ElementManager.Contracts.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.EventSender.Contracts\ifm.IoTCore.EventSender.Contracts.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.Logger.Contracts\ifm.IoTCore.Logger.Contracts.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.MessageHandler.Contracts\ifm.IoTCore.MessageHandler.Contracts.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.Message\ifm.IoTCore.Message.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.NetAdapterManager.Contracts\ifm.IoTCore.NetAdapterManager.Contracts.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.PersistenceManager.Contracts\ifm.IoTCore.PersistenceManager.Contracts.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.UserManager.Contracts\ifm.IoTCore.UserManager.Contracts.csproj" />
+  </ItemGroup>
+</Project>

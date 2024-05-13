@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>4.2.25</AssemblyVersion>
+    <Version>4.2.25</Version>
+    <Company>ifm ecomatic gmbh</Company>
+    <Copyright>Copyright © ifm ecomatic gmbh. All rights reserved.</Copyright>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ifm.IoTCore\ifm.IoTCore.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.Common\ifm.IoTCore.Common.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.ElementManager\ifm.IoTCore.ElementManager.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.EventSender\ifm.IoTCore.EventSender.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.MessageHandler\ifm.IoTCore.MessageHandler.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.NetAdapterManager\ifm.IoTCore.NetAdapterManager.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.PersistenceManager\ifm.IoTCore.PersistenceManager.csproj" />
+    <ProjectReference Include="..\ifm.IoTCore.UserManager\ifm.IoTCore.UserManager.csproj" />
+  </ItemGroup>
+</Project>

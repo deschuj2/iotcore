@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\source\ifm.IoTCore.Factory\ifm.IoTCore.Factory.csproj" />
+	<ProjectReference Include="..\..\source\ifm.IoTCore.MessageConverter.Json\ifm.IoTCore.MessageConverter.Json.csproj" />
+	<ProjectReference Include="..\..\source\ifm.IoTCore.NetAdapter.Http\ifm.IoTCore.NetAdapter.Http.csproj" />
+  </ItemGroup>
+</Project>
